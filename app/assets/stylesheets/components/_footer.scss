@@ -1,0 +1,23 @@
+.footer {
+  color: white;
+  background-color: $gigagreen;
+  height: 13vh;
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer i {
+  font-size: 25px;
+  color: white;
+  &:hover {
+    color: $gigablue;
+    transition: 1s;
+  }
+}
+
+.footer h3 {
+  font-weight: bold;
+  font-size: 25px;
+}

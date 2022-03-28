@@ -1,1 +1,28 @@
-// Specific CSS for your home-page
+.home-img {
+  min-width: 600px;
+}
+
+.btn-search {
+  font-size: bold;
+  background-color: #8db4d2;
+  border-color: #8db4d2;
+  height: 100%;
+  &:hover {
+    color: white;
+    background-color: $gigablue;
+    border-color: $gigablue;
+    transition: 1s;
+    }
+}
+
+.table-roll {
+  min-height: 35vh;
+  max-height: 65vh;
+  overflow-y: scroll;
+}
+
+.home-size {
+  position: fixed;
+  width: 100%;
+  // height: 100%;
+}
