@@ -3,14 +3,18 @@
     <table class="table table-striped table-hover table-bordered">
       <thead>
         <tr>
+          <th scope="col">Imagem</th>
           <th scope="col">Nome</th>
           <th scope="col">Gênero</th>
           <th scope="col">Email</th>
         </tr>
       </thead>
       <tbody>
-        <% @users.each do |user| %>
+        <% @records.each do |user| %>
           <tr>
+            <td>
+              <%= image_tag(user.picture_url) %>
+            </td>
             <td>
               <%= user.name %>
             </td>
@@ -24,5 +28,8 @@
         <% end %>
       </tbody>
     </table>
+    <div class="d-flex justify-content-between ">
+      <%== pagy_nav(@pagy) %>
+    </div>
   </div>
 </div>

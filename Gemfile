@@ -30,6 +30,12 @@ gem "font-awesome-sass", "~> 5.6.1"
 # gem for form
 gem "simple_form", github: 'heartcombo/simple_form'
 
+# gem for pagination
+gem 'pagy', '~> 5.10'
+# gem form
+gem 'carrierwave', '~> 2.0'
+
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
