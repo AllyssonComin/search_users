@@ -23,7 +23,7 @@ results.each do |user|
     gender: "#{user['gender']}",
     email: "#{user['email']}"
   )
-  u.remote_picture_url = user['picture']['medium']
-  u.save!
+  # u.remote_picture_url = user['picture']['medium']
+  # u.save!
   puts "#{u.name} created!"
 end

@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  mount_uploader :picture, PictureUploader
+  # mount_uploader :picture, PictureUploader
 
   include PgSearch::Model
   pg_search_scope :search_user,
