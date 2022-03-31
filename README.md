@@ -3,7 +3,7 @@
 SEARCH USERS
 
 description:
-  The project itself has the purpose of testing for a job vacancy made available by GIGASERVICE
+  The project itself has the purpose of testing for a job vacancy made available by GIGASERVICES
 
 functionalities:
   The project has the task of searching users.
