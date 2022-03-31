@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+SEARCH USERS
 
-Things you may want to cover:
+description:
+  The project itself has the purpose of testing for a job vacancy made available by GIGASERVICE
 
-* Ruby version
+functionalities:
+  The project has the task of searching users.
 
-* System dependencies
+technologies:
+  developed in RoR;
 
-* Configuration
+  using bootstrap and SCSS;
 
-* Database creation
+  gems:
+      pagy (pagination)
+      cloudinary
+      pg_search
 
-* Database initialization
+  db: Postgres/MySQL
 
-* How to run the test suite
+Deploy on heroku
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://giga-search-users.herokuapp.com/

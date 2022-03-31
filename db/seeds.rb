@@ -17,7 +17,7 @@ results.each do |user|
     email: "#{user['email']}"
   )
   u.photo.attach(io: file, filename: 'user.png', content_type: 'image/png')
-  # u.remote_picture_url = user['picture']['medium']
+  # u.remote_picture_url = user['picture']['medium']     # method the 
   # u.save!
   puts "#{u.name} created!"
 end
