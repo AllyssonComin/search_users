@@ -17,7 +17,7 @@ results.each do |user|
     email: "#{user['email']}"
   )
   u.photo.attach(io: file, filename: 'user.png', content_type: 'image/png')
-  # u.remote_picture_url = user['picture']['medium']     # method the 
-  # u.save!
+  # u.remote_picture_url = user['picture']['medium']     # method created for carrierwave to save user images,
+  # u.save!                                              # but it was not possible to use the gem for heroku due to S3
   puts "#{u.name} created!"
 end
