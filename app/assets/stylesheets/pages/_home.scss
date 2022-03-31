@@ -1,4 +1,9 @@
 .home-img {
+  min-width: 550px;
+  max-width: 700px;
+}
+
+.table-size {
   min-width: 600px;
 }
 
@@ -22,7 +27,12 @@
 }
 
 .home-size {
-  position: fixed;
+  margin-bottom: 70px;
   width: 100%;
-  // height: 100%;
 }
+
+// .body {
+//   min-height:100vh; margin:0;
+//   position: relative;
+// }
+// body::after {   content: '';   display: block;   height: 13vh; }

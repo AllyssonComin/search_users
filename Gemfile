@@ -33,7 +33,10 @@ gem "simple_form", github: 'heartcombo/simple_form'
 # gem for pagination
 gem 'pagy', '~> 5.10'
 # gem for image upload
-gem 'carrierwave', '~> 2.0'
+gem 'cloudinary', '~> 1.16.0'
+gem 'dotenv-rails', groups: [:development, :test]
+# gem for image upload
+# gem 'carrierwave', '~> 2.0'
 # gem for search
 gem 'pg_search', '~> 2.3.0'
 
