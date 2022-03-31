@@ -1,4 +1,4 @@
-<div class="row home-size bg-white justify-content-between align-items-center p-5">
+<div class="row home-size bg-white justify-content-center align-items-center p-5">
   <div class="col-sm-12 col-md-3 col-lg-4 home-img d-flex justify-content-center">
     <%= image_tag "home-img.png", class:"home-img" %>
   </div>
@@ -30,7 +30,7 @@
           <% @records.each do |user| %>
             <tr>
               <td class="align-middle">
-                <%# <%= image_tag(user.picture_url) %>
+                <%= cl_image_tag(user.photo.key) %>
               </td>
               <td class="align-middle">
                 <%= user.name %>
@@ -48,7 +48,6 @@
     </div>
     <div class="d-flex justify-content-center mt-2">
       <%== render partial: 'shared/bootstrap_nav', locals: {pagy: @pagy} %>
-      <%# <%== pagy_nav(@pagy) %>
     </div>
   </div>
 </div>
