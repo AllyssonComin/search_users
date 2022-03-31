@@ -10,7 +10,6 @@ user_api = JSON.parse(user_serialized)
 results = user_api["results"]
 
 results.each do |user|
-  puts user
   file = URI.open(user['picture']['medium'])
   u = User.create!(
     name: "#{user['name']['first']} #{user['name']['last']}",
